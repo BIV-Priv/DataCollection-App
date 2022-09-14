@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Prop" representedClassName="Prop" syncable="YES">
+        <attribute name="backgroundImage" optional="YES" attributeType="Transformable" valueTransformerName="UIImageTransformer" customClassName="UIImage"/>
+        <attribute name="backgroundVideo" optional="YES" attributeType="URI"/>
+        <attribute name="foregroundImage" optional="YES" attributeType="Transformable" valueTransformerName="UIImageTransformer" customClassName="UIImage"/>
+        <attribute name="foregroundVideo" optional="YES" attributeType="URI"/>
+        <attribute name="isCompleted" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="publishedAt" attributeType="Date" defaultDateTimeInterval="669180480" usesScalarValueType="NO"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="uuid" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Prop" positionX="-63" positionY="-18" width="128" height="149"/>
+    </elements>
+</model>
